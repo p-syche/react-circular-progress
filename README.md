@@ -5,7 +5,7 @@ ReactJS version of a beautiful SUBMIT Button from [Codrops](http://tympanus.net/
 
 Demo will be available as soon as I figure out how to publish to GitHub Pages :)
 
-[GitHub Repo for the project](https://github.com/codrops/CircularProgressButton/)
+[GitHub Repo for the original Circular Progress project](https://github.com/codrops/CircularProgressButton/)
 
 Used [Mt-SVG Animation Plugin](https://github.com/moarwick/react-mt-svg-lines) to animate the loading/checkmark/cross.
 
