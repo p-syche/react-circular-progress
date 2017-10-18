@@ -3,7 +3,7 @@ ReactJS Circular Progress Button
 
 ReactJS version of a beautiful SUBMIT Button from [Codrops](http://tympanus.net/codrops/?p=18828)
 
-Demo will be available as soon as I figure out how to publish to GitHub Pages :)
+[Demo](https://p-syche.github.io/react-circular-progress-build/)
 
 [GitHub Repo for the original Circular Progress project](https://github.com/codrops/CircularProgressButton/)
 
