@@ -1,8 +1,23 @@
+.whatever {
+	margin-top: 30px;
+}
+
+.btn-container {
+	width: 100%;
+}
+
+.btn-container .column {
+	display: inline-block;
+	float: left;
+	width: 50%;
+}
+
 .progress-button {
 	position: relative;
 	display: inline-block;
 	text-align: center;
 	margin-top: 30px;
+	margin-right: 30px;
 }
 
 .progress-button button {
