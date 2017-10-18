@@ -1,7 +1,8 @@
 {
   "name": "react-circular-progress",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
+  "author":"p-syche",
   "dependencies": {
     "react": "^16.0.0",
     "react-dom": "^16.0.0",

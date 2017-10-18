@@ -2,11 +2,12 @@
 	margin-top: 30px;
 }
 
-.btn-container {
-	width: 100%;
+.box {
+	width: 70%;
+	margin: 0 auto;
 }
 
-.btn-container .column {
+.container {
 	display: inline-block;
 	float: left;
 	width: 50%;

@@ -19,6 +19,8 @@ class Button extends React.Component {
 			animError: false
 		}
 
+		this.animEnd = this.animEnd.bind(this);
+
 	}
 
 	buttonHandler() {
@@ -28,8 +30,12 @@ class Button extends React.Component {
 			animStart: true
 		});
 
-		//JUST FOR NOW
-		//will be set to run at animation end :)
+		this.animEnd();
+
+	}
+
+	animEnd() {
+		//can be set to run at animation end, i.e. at form submit
 		setTimeout(function() {
 			this.setState({
 				buttonLoading: "",
