@@ -19,7 +19,6 @@ class Button extends React.Component {
 			animError: false
 		}
 
-		this.animEnd = this.animEnd.bind(this);
 	}
 
 	buttonHandler() {
@@ -53,11 +52,6 @@ class Button extends React.Component {
 		}.bind(this), 1000);
 	}
 
-	animEnd() {
-		console.log('now')
-
-	}
-
 	undrawLines() {
 		this.setState({
 			buttonClean: true,
@@ -76,13 +70,12 @@ class Button extends React.Component {
 		return (
 			<div className="container">
 				<div id="progress-button" className={"progress-button " + currentState.buttonLoading + " " + currentState.buttonSuccess + " " + currentState.buttonError}>
-					<button onClick={(e) => this.buttonHandler(e)}>
+					<button onClick={(e) => this.buttonHandler(e)} disabled={currentState.buttonClean ? '' : 'disabled'}>
 						<span>Submit</span>
 					</button>
 				
 					<CircleSvg 
 						animStart={this.state.animStart}
-						animEnd={this.animEnd}
 					/>
 
 					<CheckmarkSvg animSuccess={this.state.animSuccess} />
